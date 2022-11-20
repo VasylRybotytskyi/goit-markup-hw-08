@@ -22,10 +22,13 @@
 
 .menu-toggle:hover,
 .menu-toggle:focus {
+  fill: $main-color;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .mobile-menu {
+
+  
     position: fixed;
     top: 0;
     left: 0;
@@ -48,6 +51,15 @@
 
     transform: translateX(135%);
     transition: transform 250ms ease-in-out;
+
+    >.mobile-menu__flex-element {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+
 }
 
 .mobile-menu.is-open {
@@ -68,7 +80,6 @@
 
 .mobile-menu__list {
   padding: 0;
-  margin-bottom: 302px;;
   list-style: none;
 }
 

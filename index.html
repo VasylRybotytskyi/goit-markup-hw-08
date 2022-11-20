@@ -545,34 +545,40 @@
       </div>
     </footer>
     <div class="mobile-menu js-menu-container container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
-          class="mobile-menu__icon-close"
-        >
-          <use href="./images/icons.svg#icon-close-menu"></use>
-        </svg>
-      </button>
-
-      <ul class="mobile-menu__list">
-        <li><a href="#" class="mobile-menu__link">Студія</a></li>
-        <li><a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a></li>
-        <li><a href="#" class="mobile-menu__link">Контакти</a></li>
-      </ul>
-      <ul class="mobile-menu__contacts">
-        <li class="mobile-menu__tel">+38 096 111 11 11</li>
-        <li class="mobile-menu__email">info@devstudio.com</li>
-      </ul>
-      <ul class="mobile-menu__social">
-        <li class="item">Instagram</li>
-        <li class="item">Twitter</li>
-        <li class="item">Facebook</li>
-        <li class="item">LinkedIn</li>
-      </ul>
+      <div class="mobile-menu__flex-element">
+        <div class="mobile-menu__flex-top">
+          <button class="menu-toggle js-close-menu">
+            <svg
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              class="mobile-menu__icon-close"
+            >
+              <use href="./images/icons.svg#icon-close-menu"></use>
+            </svg>
+          </button>
+    
+          <ul class="mobile-menu__list">
+            <li><a href="#" class="mobile-menu__link">Студія</a></li>
+            <li><a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a></li>
+            <li><a href="#" class="mobile-menu__link">Контакти</a></li>
+          </ul>
+        </div>
+        <div  class="mobile-menu__flex-bottom">
+          <ul class="mobile-menu__contacts">
+            <li class="mobile-menu__tel">+38 096 111 11 11</li>
+            <li class="mobile-menu__email">info@devstudio.com</li>
+          </ul>
+          <ul class="mobile-menu__social">
+            <li class="item">Instagram</li>
+            <li class="item">Twitter</li>
+            <li class="item">Facebook</li>
+            <li class="item">LinkedIn</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <script
