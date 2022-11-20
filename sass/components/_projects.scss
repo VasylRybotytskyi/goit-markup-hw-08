@@ -1,11 +1,11 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    gap: 30px;
 }
 
 .projects__item {
-    margin: 15px;
+   
 
     @media screen and (min-width: 768px) {
     width: calc((100% - 2 * 30px) / 2);
