@@ -5,7 +5,7 @@
 }
 
 .projects__item {
-   
+    
 
     @media screen and (min-width: 768px) {
     width: calc((100% - 2 * 30px) / 2);
@@ -69,6 +69,8 @@
     padding: 20px 24px;
 
     border: 1px solid #EEEEEE;
+
+    flex-grow: 1;
 }
 
 .projects__title {
@@ -81,4 +83,13 @@
 .projects__text {
     font-size: 16px;
     line-height: 1.9;
+}
+
+.case-link {
+        display: flex;
+        flex-direction: column;
+    
+        height: 100%;   
+    
+    
 }

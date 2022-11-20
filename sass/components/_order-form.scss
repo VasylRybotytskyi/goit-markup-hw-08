@@ -16,7 +16,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 
 }
 
@@ -34,6 +34,7 @@
     transition: border-color 250ms $timing-function;
 
     
+    &:hover ,
     &:focus {
     border-color: $main-color;
 }
@@ -49,6 +50,7 @@
 
     transition: fill 250ms $timing-function;
 
+    .order__input:hover + & ,
     .order__input:focus + & {
     fill: $main-color;
 }
@@ -70,6 +72,7 @@
     transition: border-color 250ms $timing-function;
 }
 
+.order__comments-area:hover,
 .order__comments-area:focus {
     border-color: $main-color;
 }
@@ -142,4 +145,3 @@
     background: $hero-button-bg-color;
 }
 }
-
