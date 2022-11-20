@@ -1,0 +1,60 @@
+.works__title,
+.our-team__title,
+.clients_title {
+
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+
+    @media screen and (min-width: 1140px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+
+  }
+}
+.hero__title {
+  margin-bottom: 30px;
+  
+  color: $white-font-color;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.benefist__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.order__title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: $main-font-color;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  
+  color: $white-font-color;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
