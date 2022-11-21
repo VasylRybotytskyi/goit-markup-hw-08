@@ -29,12 +29,11 @@
 
 .benefist__title {
   margin-bottom: 10px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  text-align: center;
+ 
 }
 
 .order__title {
@@ -57,4 +56,17 @@
   line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.social-title {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:  $white-font-color; 
+  margin-bottom: 20px;
+  
 }

@@ -10,29 +10,45 @@
 
 .bottom__wrapper {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items: baseline;
 
-    @media screen and (min-width: 1200px) {
-    flex-direction: row;
-}
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    @media screen and (min-width:769px) and (max-width:1200px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .wrapper-for-boxes {
+    @media screen and (max-width:1199px){
+        margin-left: auto;
+        margin-right: auto;   
+    }
+    
     @media screen and (min-width: 768px) {
         display: flex;
-        justify-content: space-around;
+        align-items: baseline;
         
     }
     
 }
 .bottom__contacts-box {
+    @media screen and (max-width:1199px){ 
+        margin-bottom: 60px;  
+    }
+   
+    margin-left: auto;
     @media screen and (min-width: 768px) {
     margin-right: 165px;
 }
 
 @media screen and (min-width: 1200px) {
     margin-right: 70px;
+    text-align: left;
 }
 }
 
@@ -57,8 +73,6 @@
 }
 
 .bottom__contakts-list {
-    margin-bottom: 60px;
-
     @media screen and (min-width: 1200px) {
     margin-bottom: 0;
 }
@@ -89,11 +103,18 @@
 }
 
 .social-box {
-     margin-bottom: 60px;
-    @media screen and (min-width: 768px) {
-        padding-top: 25px;
-        margin-bottom: 0;
+    text-align: center;
+    @media screen  and (max-width:768px) {
+        margin-right: auto;
+        margin-left: auto;
+       margin-bottom: 60px; 
     }
+    
+}
+.social-box-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 .social-box__text {
@@ -103,6 +124,9 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+     @media screen  and (min-width:1200px) {
+       text-align: left; 
+     }
 }
 
 

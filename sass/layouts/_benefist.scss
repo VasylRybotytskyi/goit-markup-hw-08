@@ -1,23 +1,22 @@
 .benefist__list {
-    
-    @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 30px;
+
+    @media screen and (max-width: 1199px) {
         display: flex;
         flex-wrap: wrap;
-        margin: -15px;
+        gap: 30px;
     }
-
-
 }
 
 .benefist__item {
    
     @media screen and (min-width: 768px) {
-        width: calc((100% - 2 * 30px) / 2);
-        margin: 15px;
+        width: calc((100% - 30px) / 2); 
     }
 
     @media screen and (min-width: 1200px) {
-        width: calc((100% - 4 * 30px) / 4);
+        width: calc((100% - 90px) / 3);
     }
 }
 
@@ -27,28 +26,9 @@
     margin-bottom: 30px;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 30%;
-    padding-right: 30%;
     background-color: $third-bg-color;
     border-radius: 4px;
-
-    @media screen and (max-width: 767px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    @media screen and (min-width: 768px) {
-        max-width: 354px;
-        padding-left: 144px;
-        padding-right: 144px;  
-}
-
-    @media screen and (min-width: 1200px) {
-        max-width: 270px;
-        padding-left: 102px;
-        padding-right: 102px; 
-    }
+    text-align: center;
 }
 
 .benefist__icon {
@@ -58,6 +38,7 @@
 }
 
 .benefist__text {
+    
     color: $second-font-color;
     font-size: 14px;
     line-height: 1.7;

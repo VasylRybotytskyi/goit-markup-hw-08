@@ -1,7 +1,7 @@
 .subscribe {
-    @media screen and (min-width: 1200px) {
-        margin-left: 93px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .subscribe__text {
@@ -96,5 +96,12 @@
 
     @media screen and (min-width: 1200px) {
         margin-left: 10px;
+    }
+}
+
+.form-subscribe {
+    margin-left: auto;
+    @media screen and (max-width:1199px){
+        margin-right: auto;
     }
 }
