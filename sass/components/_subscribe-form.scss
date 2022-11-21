@@ -48,15 +48,14 @@
     border-radius: 4px;
     background-color: $secondary-bg-color;
 
-    @media screen and (max-width: 767px) {
-        width: 95vw;
-        max-width: 450px;   
-    }  
-
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 480px) {
         width: 450px;  
     }
-    
+
+    @media screen and (max-width: 767px) {
+        width: 94vw;  
+    }  
+
     @media screen and (min-width: 1200px) {
         width: 358px;   
     } 

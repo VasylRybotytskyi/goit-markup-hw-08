@@ -541,15 +541,14 @@ body {
   border-radius: 4px;
   background-color: #2F303A;
 }
-@media screen and (max-width: 767px) {
-  .subscribe__input {
-    width: 95vw;
-    max-width: 450px;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .subscribe__input {
     width: 450px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .subscribe__input {
+    width: 94vw;
   }
 }
 @media screen and (min-width: 1200px) {
