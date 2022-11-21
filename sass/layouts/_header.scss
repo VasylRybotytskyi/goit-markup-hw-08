@@ -1,5 +1,10 @@
 .page-header {
         border: 1px solid #ECECEC;
+
+        @media screen and (max-width:768px){
+                padding-top: 10px;
+                padding-bottom: 10px;
+        }
 }
 
 .site-nav {
@@ -7,10 +12,7 @@
         align-items: center;
         justify-content: space-between;       
         
-        @media screen and (max-width:768px){
-                padding-top: 10px;
-                padding-bottom: 10px;
-        }
+        
         
 }
 
@@ -55,8 +57,16 @@
             .site-nav__list {
                 display: none;
             }
-        }
+}
         
+.contacts-list__item:not(:last-child) { 
+        @media screen and (min-width:769px) and (max-width:1200px) {
+                margin-bottom: 10px;     
+        }
+                
+}
+
+
 .site-nav__item:not(:last-child) {
         margin-right: 50px;
 }
@@ -99,7 +109,6 @@
 
         text-decoration: none;
         color: $second-font-color;
-        padding-bottom: 10px;
 
         transition: color 250ms $timing-function;
 
@@ -107,6 +116,7 @@
         &:focus {
         color: $main-color;
         }
+        
 
         @media screen and (min-width: 1200px) {
             padding-top: 32px;
